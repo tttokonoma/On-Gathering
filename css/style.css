@@ -1,15 +1,38 @@
 body,
 html {
+	background-color: rgb(85,45,25);
 
 }
 
-
-
-/* Mobile
--------------------------------------------------- */
+/* Mobile */
 
 @media screen and (max-width: 650px) {
 
-  
 } 
 
+/* unvisited link */
+a:link {
+	color: black;
+}
+
+/* visited link */
+a:visited {
+	color: black;
+}
+
+/* mouse over link */
+a:hover {
+	color: transparent;
+}
+
+/* selected link */
+a:active {
+	color: transparent;
+}
+
+p {
+	border: none;
+	margin-left: 50px;
+}
+
+h
